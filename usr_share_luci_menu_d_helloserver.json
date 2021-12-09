@@ -1,0 +1,19 @@
+{
+    "admin/infodrone": {
+        "title": "HelloServer",
+        "order": 70,
+        "action": {
+            "type": "firstchild",
+            "recurse": true
+        }
+    },
+    "admin/infodrone/configuration": {
+        "title": "Configuration",
+        "order": 1,
+        "action": {
+            "type": "cbi",
+            "path": "helloserver/configuration",
+            "config": "helloserver"
+        }
+    }
+}
